@@ -59,4 +59,4 @@ def offset_finder():
         return jsonify({"message": f"Có lỗi xảy ra: {str(e)}"}), 500
 
 if __name__ == "__main__":
-    app.run(port=5500)
+    app.run(port=10000)
